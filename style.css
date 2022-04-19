@@ -1,0 +1,33 @@
+
+#navigationbar {
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+#navigationbar li {
+	display:block;
+	width:120px;
+	float:right;
+	margin-left:2px;
+	border:1px solid #000;
+  font-size: .25in;
+}
+
+#navigationbar a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:rgb(255, 0, 0);
+	color:rgb(0, 0, 0);
+}
+
+#navigationbar a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+
+#place{
+  display: block;
+  object-fit: cover;
+}
